@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: helvetica;
+}
+
+.main-action {
+    padding: 3rem;
+}
+
+.main-action > h1 {
+    margin-top: 5rem;
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.project {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.responsive {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.12%;
+    position: relative;
+}
+
+.responsive iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.main-action-boiler {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-item {
+    padding: 1.5rem 0;
+}
+
+.list-item:first-child {
+    padding-top: 0;
+}
+
+.main-problem-title > a {
+    font-weight: 800;
+    text-decoration: none;
+    color: #111;
+    letter-spacing: .5rem;
+    font-size: 2rem;
+    -webkit-transition: font-size 1s;
+}
+
+.main-problem-title > a:hover {
+    font-weight: 900;
+    font-size: 2.5rem;
+    -webkit-transition: font-size 1s;
+
+}
+
+
+.problem-complexity {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+/* Problem page */
+
+.problem-container {
+    padding: 4rem;
+    display: grid;
+    grid-template-areas: 
+    'title'
+    'intro'
+    'video';
+    grid-gap: 2rem;
+}
+
+
+
+.problem-title {
+    font-size: 5rem;
+    grid-area: title;
+    text-transform: uppercase;
+}
+
+.problem-description {
+    grid-area: intro;
+
+    font-weight: 100;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+#math {
+    font-family: 'VT323', monospace;
+}
+
+.problem-description a {
+    text-decoration: none;
+    color: #ff4949
+}
+
+.problem-description a:hover {
+    color: #111;
+    -webkit-transition: color 1s;
+}
+
+.video {
+    grid-area: video;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.nav-prev a{
+    text-decoration: none;
+    color: #ff4949;
+    font-size: 4rem;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.nav-home a{
+    text-decoration: none;
+    color: #ff4949;
+    font-size: 4rem;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.nav-next a{
+    text-decoration: none;
+    color: #ff4949;
+    font-size: 4rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* Footer */
+
+.footer  {
+    font-weight: 100;
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+    text-transform: uppercase;
+}
+
+
+
+
+
