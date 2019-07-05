@@ -171,19 +171,7 @@ ul {
 
 /* Footer */
 
-.footer  {
-    font-weight: 100;
-    text-align: center;
-    padding: 1rem;
-    background: #eee;
-    text-transform: uppercase;
-}
 
-@media screen and (max-width: 874px) {
-    .footer {
-        display: none;
-    }
-  }
 
 
 
