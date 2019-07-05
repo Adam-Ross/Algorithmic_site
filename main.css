@@ -179,6 +179,12 @@ ul {
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 874px) {
+    .footer {
+        display: none;
+    }
+  }
+
 
 
 
